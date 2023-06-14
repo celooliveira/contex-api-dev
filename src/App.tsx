@@ -1,4 +1,5 @@
 import { Alunos } from "./comonents/alunos"
+import { Footer } from "./comonents/footer";
 import { useState } from "react"
 
 import UserProvider from "./contexts/user";
@@ -12,6 +13,7 @@ function App() {
         <br />
         <hr />
         <Alunos/>
+        <Footer/>
       </div>
     </UserProvider>
   )
